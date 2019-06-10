@@ -1,0 +1,6 @@
+framework module qsxSocketDemo {
+  umbrella header "qsxSocketDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

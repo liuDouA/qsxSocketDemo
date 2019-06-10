@@ -7,9 +7,12 @@
 //
 
 #import "qsxViewController.h"
+#import "qsxChatSocketIO.h"
+#import "chatCtl.h"
 
 @interface qsxViewController ()
 
+@property (nonatomic,strong)qsxChatSocketIO *socketio;
 @end
 
 @implementation qsxViewController
@@ -17,9 +20,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    _socketio = [qsxChatSocketIO shareqsxChatSocketIO];
+    [_socketio initSocketio];
+    self.view.backgroundColor= [UIColor whiteColor];
+    
+    UIButton *bbb = [UIButton buttonWithType:UIButtonTypeCustom];
+    bbb.backgroundColor = [UIColor redColor];
+    bbb.frame = CGRectMake(100, 100, 100, 100);
+    [bbb addTarget:self action:@selector(send) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:bbb];
 }
-
+- (void)send{
+    chatCtl *chat = [[chatCtl alloc]init];
+    [self.navigationController pushViewController:chat animated:YES];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

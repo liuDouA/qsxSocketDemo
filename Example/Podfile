@@ -5,6 +5,12 @@ platform :ios, '8.0'
 target 'qsxSocketDemo_Example' do
   pod 'qsxSocketDemo', :path => '../'
 
+#  pod 'Socket.IO-Client-Swift', '~> 8.3.3'
+
+#pod 'Socket.IO-Client-Swift'
+
+  
+  
   target 'qsxSocketDemo_Tests' do
     inherit! :search_paths
 

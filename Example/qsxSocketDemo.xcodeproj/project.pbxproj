@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13F9B0E422AE9A1800C8113A /* chatCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0E322AE9A1800C8113A /* chatCtl.m */; };
+		13F9B0E722AE9A4000C8113A /* qsxChatSocketIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0E622AE9A4000C8113A /* qsxChatSocketIO.m */; };
+		13F9B0F922AE9FEA00C8113A /* CSRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0EA22AE9FE900C8113A /* CSRecord.m */; };
+		13F9B0FA22AE9FEA00C8113A /* UIImage+Han.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0EC22AE9FE900C8113A /* UIImage+Han.m */; };
+		13F9B0FB22AE9FEA00C8113A /* CSBigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0EE22AE9FE900C8113A /* CSBigView.m */; };
+		13F9B0FC22AE9FEA00C8113A /* EmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0EF22AE9FE900C8113A /* EmojiView.m */; };
+		13F9B0FD22AE9FEA00C8113A /* CSMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0F222AE9FE900C8113A /* CSMessageModel.m */; };
+		13F9B0FE22AE9FEA00C8113A /* UILabel+Han.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0F622AE9FEA00C8113A /* UILabel+Han.m */; };
+		13F9B0FF22AE9FEA00C8113A /* CSMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0F722AE9FEA00C8113A /* CSMessageCell.m */; };
+		13F9B10022AE9FEA00C8113A /* CSEmojiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B0F822AE9FEA00C8113A /* CSEmojiCollectionViewCell.m */; };
+		13F9B10922AEA01E00C8113A /* ll.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9B10222AEA01D00C8113A /* ll.png */; };
+		13F9B10A22AEA01E00C8113A /* w.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9B10322AEA01D00C8113A /* w.png */; };
+		13F9B10B22AEA01E00C8113A /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9B10422AEA01E00C8113A /* m.png */; };
+		13F9B10C22AEA01E00C8113A /* other.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9B10522AEA01E00C8113A /* other.png */; };
+		13F9B10D22AEA01E00C8113A /* dd.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9B10622AEA01E00C8113A /* dd.png */; };
+		13F9B10E22AEA01E00C8113A /* mm.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9B10722AEA01E00C8113A /* mm.png */; };
+		13F9B10F22AEA01E00C8113A /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9B10822AEA01E00C8113A /* me.png */; };
+		13F9B11222AEA06700C8113A /* qsx_chatModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9B11122AEA06700C8113A /* qsx_chatModelView.m */; };
 		592A36054101A35702A32FD8 /* Pods_qsxSocketDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0FAA62F7407292357B7DE0 /* Pods_qsxSocketDemo_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +55,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13F9B0E222AE9A1800C8113A /* chatCtl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chatCtl.h; sourceTree = "<group>"; };
+		13F9B0E322AE9A1800C8113A /* chatCtl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chatCtl.m; sourceTree = "<group>"; };
+		13F9B0E522AE9A4000C8113A /* qsxChatSocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qsxChatSocketIO.h; sourceTree = "<group>"; };
+		13F9B0E622AE9A4000C8113A /* qsxChatSocketIO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qsxChatSocketIO.m; sourceTree = "<group>"; };
+		13F9B0E922AE9FE900C8113A /* UIImage+Han.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Han.h"; sourceTree = "<group>"; };
+		13F9B0EA22AE9FE900C8113A /* CSRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRecord.m; sourceTree = "<group>"; };
+		13F9B0EB22AE9FE900C8113A /* CSRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRecord.h; sourceTree = "<group>"; };
+		13F9B0EC22AE9FE900C8113A /* UIImage+Han.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Han.m"; sourceTree = "<group>"; };
+		13F9B0ED22AE9FE900C8113A /* EmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiView.h; sourceTree = "<group>"; };
+		13F9B0EE22AE9FE900C8113A /* CSBigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBigView.m; sourceTree = "<group>"; };
+		13F9B0EF22AE9FE900C8113A /* EmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiView.m; sourceTree = "<group>"; };
+		13F9B0F022AE9FE900C8113A /* CSMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMessageModel.h; sourceTree = "<group>"; };
+		13F9B0F122AE9FE900C8113A /* CSMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMessageCell.h; sourceTree = "<group>"; };
+		13F9B0F222AE9FE900C8113A /* CSMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMessageModel.m; sourceTree = "<group>"; };
+		13F9B0F322AE9FE900C8113A /* CSBigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBigView.h; sourceTree = "<group>"; };
+		13F9B0F422AE9FEA00C8113A /* CSEmojiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEmojiCollectionViewCell.h; sourceTree = "<group>"; };
+		13F9B0F522AE9FEA00C8113A /* UILabel+Han.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Han.h"; sourceTree = "<group>"; };
+		13F9B0F622AE9FEA00C8113A /* UILabel+Han.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Han.m"; sourceTree = "<group>"; };
+		13F9B0F722AE9FEA00C8113A /* CSMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMessageCell.m; sourceTree = "<group>"; };
+		13F9B0F822AE9FEA00C8113A /* CSEmojiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEmojiCollectionViewCell.m; sourceTree = "<group>"; };
+		13F9B10122AE9FF400C8113A /* ConstantPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantPart.h; sourceTree = "<group>"; };
+		13F9B10222AEA01D00C8113A /* ll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ll.png; sourceTree = "<group>"; };
+		13F9B10322AEA01D00C8113A /* w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w.png; sourceTree = "<group>"; };
+		13F9B10422AEA01E00C8113A /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
+		13F9B10522AEA01E00C8113A /* other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = other.png; sourceTree = "<group>"; };
+		13F9B10622AEA01E00C8113A /* dd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dd.png; sourceTree = "<group>"; };
+		13F9B10722AEA01E00C8113A /* mm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm.png; sourceTree = "<group>"; };
+		13F9B10822AEA01E00C8113A /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		13F9B11022AEA06700C8113A /* qsx_chatModelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = qsx_chatModelView.h; sourceTree = "<group>"; };
+		13F9B11122AEA06700C8113A /* qsx_chatModelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qsx_chatModelView.m; sourceTree = "<group>"; };
 		23C77D7BA5236832DAD3741B /* Pods-qsxSocketDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qsxSocketDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-qsxSocketDemo_Tests/Pods-qsxSocketDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E0FAA62F7407292357B7DE0 /* Pods_qsxSocketDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qsxSocketDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35082B7F92F822064B05046F /* Pods-qsxSocketDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qsxSocketDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qsxSocketDemo_Tests/Pods-qsxSocketDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,10 +111,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9CEA39EC952B726AC027E097 /* qsxSocketDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = qsxSocketDemo.podspec; path = ../qsxSocketDemo.podspec; sourceTree = "<group>"; };
-		ADB23D2AF96029CEFA2ACCCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9CEA39EC952B726AC027E097 /* qsxSocketDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = qsxSocketDemo.podspec; path = ../qsxSocketDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADB23D2AF96029CEFA2ACCCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE355C52CBA4BA104E8844E6 /* Pods-qsxSocketDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qsxSocketDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-qsxSocketDemo_Example/Pods-qsxSocketDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D657A792F88866C3B34D1AB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D657A792F88866C3B34D1AB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +143,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13F9B0E822AE9F9A00C8113A /* ChatViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				13F9B10622AEA01E00C8113A /* dd.png */,
+				13F9B10222AEA01D00C8113A /* ll.png */,
+				13F9B10422AEA01E00C8113A /* m.png */,
+				13F9B10822AEA01E00C8113A /* me.png */,
+				13F9B10722AEA01E00C8113A /* mm.png */,
+				13F9B10522AEA01E00C8113A /* other.png */,
+				13F9B10322AEA01D00C8113A /* w.png */,
+				13F9B10122AE9FF400C8113A /* ConstantPart.h */,
+				13F9B0F322AE9FE900C8113A /* CSBigView.h */,
+				13F9B0EE22AE9FE900C8113A /* CSBigView.m */,
+				13F9B0F422AE9FEA00C8113A /* CSEmojiCollectionViewCell.h */,
+				13F9B0F822AE9FEA00C8113A /* CSEmojiCollectionViewCell.m */,
+				13F9B0F122AE9FE900C8113A /* CSMessageCell.h */,
+				13F9B0F722AE9FEA00C8113A /* CSMessageCell.m */,
+				13F9B0F022AE9FE900C8113A /* CSMessageModel.h */,
+				13F9B0F222AE9FE900C8113A /* CSMessageModel.m */,
+				13F9B0EB22AE9FE900C8113A /* CSRecord.h */,
+				13F9B0EA22AE9FE900C8113A /* CSRecord.m */,
+				13F9B0ED22AE9FE900C8113A /* EmojiView.h */,
+				13F9B0EF22AE9FE900C8113A /* EmojiView.m */,
+				13F9B0E922AE9FE900C8113A /* UIImage+Han.h */,
+				13F9B0EC22AE9FE900C8113A /* UIImage+Han.m */,
+				13F9B0F522AE9FEA00C8113A /* UILabel+Han.h */,
+				13F9B0F622AE9FEA00C8113A /* UILabel+Han.m */,
+				13F9B11022AEA06700C8113A /* qsx_chatModelView.h */,
+				13F9B11122AEA06700C8113A /* qsx_chatModelView.m */,
+			);
+			path = ChatViewModel;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +218,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* qsxViewController.h */,
 				6003F5A6195388D20070C39A /* qsxViewController.m */,
+				13F9B0E222AE9A1800C8113A /* chatCtl.h */,
+				13F9B0E322AE9A1800C8113A /* chatCtl.m */,
+				13F9B0E522AE9A4000C8113A /* qsxChatSocketIO.h */,
+				13F9B0E622AE9A4000C8113A /* qsxChatSocketIO.m */,
+				13F9B0E822AE9F9A00C8113A /* ChatViewModel */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -257,6 +343,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -276,9 +363,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F9B10922AEA01E00C8113A /* ll.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				13F9B10A22AEA01E00C8113A /* w.png in Resources */,
+				13F9B10F22AEA01E00C8113A /* me.png in Resources */,
+				13F9B10D22AEA01E00C8113A /* dd.png in Resources */,
+				13F9B10E22AEA01E00C8113A /* mm.png in Resources */,
+				13F9B10B22AEA01E00C8113A /* m.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				13F9B10C22AEA01E00C8113A /* other.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,12 +419,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-qsxSocketDemo_Example/Pods-qsxSocketDemo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${BUILT_PRODUCTS_DIR}/qsxSocketDemo/qsxSocketDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/qsxSocketDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,9 +465,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F9B0FE22AE9FEA00C8113A /* UILabel+Han.m in Sources */,
+				13F9B11222AEA06700C8113A /* qsx_chatModelView.m in Sources */,
+				13F9B0FC22AE9FEA00C8113A /* EmojiView.m in Sources */,
+				13F9B0F922AE9FEA00C8113A /* CSRecord.m in Sources */,
+				13F9B0FB22AE9FEA00C8113A /* CSBigView.m in Sources */,
+				13F9B0E722AE9A4000C8113A /* qsxChatSocketIO.m in Sources */,
+				13F9B0FF22AE9FEA00C8113A /* CSMessageCell.m in Sources */,
 				6003F59E195388D20070C39A /* qsxAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* qsxViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				13F9B0FD22AE9FEA00C8113A /* CSMessageModel.m in Sources */,
+				13F9B0E422AE9A1800C8113A /* chatCtl.m in Sources */,
+				13F9B10022AE9FEA00C8113A /* CSEmojiCollectionViewCell.m in Sources */,
+				13F9B0FA22AE9FEA00C8113A /* UIImage+Han.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +609,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qsxSocketDemo/qsxSocketDemo-Prefix.pch";
 				INFOPLIST_FILE = "qsxSocketDemo/qsxSocketDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +625,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "qsxSocketDemo/qsxSocketDemo-Prefix.pch";
 				INFOPLIST_FILE = "qsxSocketDemo/qsxSocketDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

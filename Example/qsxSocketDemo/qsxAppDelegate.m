@@ -7,12 +7,20 @@
 //
 
 #import "qsxAppDelegate.h"
-
+#import "qsxViewController.h"
 @implementation qsxAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    
+    qsxViewController *cc = [[qsxViewController alloc]init];
+    UINavigationController *nav =[[UINavigationController alloc]initWithRootViewController:cc];
+    self.window.rootViewController = nav;
+    
+    [self.window setNeedsLayout];
+    
     return YES;
 }
 
